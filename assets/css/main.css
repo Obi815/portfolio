@@ -2704,7 +2704,7 @@ input[type="button"]:disabled,
 	justify-content: space-between;
 	background-color: #1f1815;
 	background-attachment: scroll, scroll;
-	background-image: url("images/overlay.png"), url("../../images/Boats\ Boats\ Boats.JPG");
+	background-image: url("images/overlay.png"), url("/GG\ Bridge.jpg");
 	background-position: top left, top left;
 	background-repeat: repeat, no-repeat;
 	background-size: auto, 150%;
@@ -2766,7 +2766,7 @@ input[type="button"]:disabled,
 }
 
 #footer .icons a {
-	color: rgba(255, 255, 255, 0.4);
+	color: rgba(255, 255, 255, 0.723);
 }
 
 #footer .copyright {
