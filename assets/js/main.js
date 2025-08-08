@@ -116,4 +116,32 @@
 
 })(jQuery);
 
+// Copy to Keyboard for email
 
+document.getElementById("copyEmail").addEventListener("click", function (event) {
+	event.preventDefault(); // stop link navigation
+	const email = "ObinnaEzeka815@gmail.com";
+
+	navigator.clipboard.writeText(email).then(() => {
+		// Create tooltip
+		const tooltip = document.createElement("div");
+		tooltip.className = "copy-tooltip";
+		tooltip.innerText = "Copied!";
+		document.body.appendChild(tooltip);
+
+		// Position tooltip by cursor
+		tooltip.style.left = `${event.pageX}px`;
+		tooltip.style.top = `${event.pageY - 10}px`;
+
+		// Show tooltip
+		requestAnimationFrame(() => {
+			tooltip.style.opacity = "1";
+		});
+
+		// Remove tooltip after 1 second
+		setTimeout(() => {
+			tooltip.style.opacity = "0";
+			setTimeout(() => tooltip.remove(), 200);
+		}, 1000);
+	});
+});

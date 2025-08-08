@@ -2349,6 +2349,25 @@ ul.labeled-icons li h3 {
 	width: 1em;
 }
 
+#copyEmail {
+	cursor: pointer;
+}
+
+.copy-tooltip {
+	position: absolute;
+	background: #333;
+	color: white;
+	padding: 4px 8px;
+	border-radius: 4px;
+	font-size: 0.8em;
+	opacity: 0;
+	pointer-events: none;
+	transform: translate(-50%, -120%);
+	transition: opacity 0.2s ease;
+	white-space: nowrap;
+	z-index: 999;
+}
+
 /* Actions */
 
 ul.actions {
