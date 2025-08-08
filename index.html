@@ -50,7 +50,7 @@
 			<div class="row">
 				<article class="col-6 col-12-xsmall work-item">
 					<a href="images/fulls/01.jpg" class="image fit thumb"><img
-							src="/images/work photos/bam logo pink copy.png" alt="" /></a>
+							src="/images/work photos/BM_PodcastCover.png" alt="" /></a>
 					<h3>The Bam Website</h3>
 					<p>A basketball podcast ran by me and a few friends <br />
 						Give us a listen and tell me how you like it!</p>
@@ -92,19 +92,25 @@
 			<p>Have a question, opportunity, or just want to say hi? Feel free to reach out I’d love to connect..</p>
 			<div class="row">
 				<div class="col-8 col-12-small">
-					<form method="post" action="#">
+					<form method="POST" action="https://formspree.io/f/mblkpzvk">
 						<div class="row gtr-uniform gtr-50">
-							<div class="col-6 col-12-xsmall"><input type="text" name="name" id="name"
-									placeholder="Name" /></div>
-							<div class="col-6 col-12-xsmall"><input type="email" name="email" id="email"
-									placeholder="Email" /></div>
-							<div class="col-12"><textarea name="message" id="message" placeholder="Message"
-									rows="4"></textarea></div>
+							<div class="col-6 col-12-xsmall">
+								<input type="text" name="name" id="name" placeholder="Name" required />
+							</div>
+							<div class="col-6 col-12-xsmall">
+								<input type="email" name="email" id="email" placeholder="Email" required />
+							</div>
+							<div class="col-12">
+								<textarea name="message" id="message" placeholder="Message" rows="4"
+									required></textarea>
+							</div>
+							<div class="col-12">
+								<ul class="actions">
+									<li><input type="submit" value="Send Message" /></li>
+								</ul>
+							</div>
 						</div>
 					</form>
-					<ul class="actions">
-						<li><input type="submit" value="Send Message" /></li>
-					</ul>
 				</div>
 				<div class="col-4 col-12-small">
 					<ul class="labeled-icons">
@@ -452,8 +458,8 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 		<div class="inner">
 			<ul class="icons">
 				<li>
-					<a href="files/Obinna_Ezeka_Resume.pdf" class="icon brands fa-black-tie" title="View Resume"
-						target="_blank" rel="noopener noreferrer">
+					<a href="/files/Obinna_Ezeka_Defualt Resume copy.pdf" class="icon brands fa-black-tie"
+						title="View Resume" target="_blank" rel="noopener noreferrer">
 						<span class="label">Resume</span>
 					</a>
 				</li>
