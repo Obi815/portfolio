@@ -1,33 +1,48 @@
-Strata by HTML5 UP
-html5up.net | @ajlkn
-Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+# 🌐 Obinna Ezeka — Portfolio Website
 
+This is my personal developer portfolio built using an HTML5UP template.  
+It showcases my software engineering projects, skills, and background.
 
-A simple, minimalist template that actually began life as an unused redesign of my
-personal site. Includes a (configurable) parallax background effect, Poptrox-powered
-lightbox gallery, a bunch of pre-styled elements, and Sass sources for the Sass-inclined.
+---
 
-Demo images* courtesy of Unsplash, a radtastic collection of CC0 (public domain) images
-you can use for pretty much whatever.
+## 🚀 Overview
 
-(* = Not included)
+My portfolio highlights:
+- Featured coding projects (with GitHub links)
+- About Me section
+- Contact information
+- Responsive design for desktop and mobile
 
-Feedback, bug reports, and comments are not only welcome, but strongly encouraged :)
+You can view it live here: 
 
-AJ
-aj@lkn.io | @ajlkn
+---
 
-PS: Not sure how to get that contact form working? Give formspree.io a try (it's awesome).
+## 🛠️ Built With
 
+- **HTML5** — structure  
+- **CSS3** — styling and animations  
+- **JavaScript** — interactivity  
+- **HTML5UP Template** — base design/theme  
+- (Optional) **Netlify / GitHub Pages** — for deployment  
 
-Credits:
+---
 
-	Demo Images:
-		Unsplash (unsplash.com)
+## 💡 Features
 
-	Icons:
-		Font Awesome (fontawesome.io)
+- Fully responsive layout  
+- Smooth scrolling navigation  
+- Contact form (optional)  
+- Clean and modern UI design  
+- Custom sections for projects and resume links  
 
-	Other:
-		jQuery (jquery.com)
-		Responsive Tools (github.com/ajlkn/responsive-tools)
+---
+
+## 🧰 Setup & Installation
+
+If you’d like to run it locally:
+
+```bash
+# Clone the repository
+git clone 
+
+# Open index.html in your browser
