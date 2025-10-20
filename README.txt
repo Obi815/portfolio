@@ -13,7 +13,7 @@ My portfolio highlights:
 - Contact information
 - Responsive design for desktop and mobile
 
-You can view it live here: https://obi815.github.io/portfolio/
+You can view it live here: https://obinnaezekaportfolio.netlify.app/
 
 ---
 
