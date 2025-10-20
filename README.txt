@@ -13,7 +13,7 @@ My portfolio highlights:
 - Contact information
 - Responsive design for desktop and mobile
 
-You can view it live here: 
+You can view it live here: https://obi815.github.io/portfolio/
 
 ---
 
@@ -43,6 +43,6 @@ If you’d like to run it locally:
 
 ```bash
 # Clone the repository
-git clone 
+git clone https://github.com/Obi815/portfolio
 
 # Open index.html in your browser
